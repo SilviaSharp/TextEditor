@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\book_open.png" />
+    <None Remove="Icons\cut.png" />
+    <None Remove="Icons\folder_page.png" />
+    <None Remove="Icons\page_copy.png" />
+    <None Remove="Icons\page_paste.png" />
+    <None Remove="Icons\page_save.png" />
+    <None Remove="Icons\text_bold.png" />
+    <None Remove="Icons\text_italic.png" />
+    <None Remove="Icons\text_underline.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\page_paste.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\book_open.png" />
+    <Resource Include="Icons\cut.png" />
+    <Resource Include="Icons\folder_page.png" />
+    <Resource Include="Icons\page_copy.png" />
+    <Resource Include="Icons\page_save.png" />
+    <Resource Include="Icons\text_bold.png" />
+    <Resource Include="Icons\text_italic.png" />
+    <Resource Include="Icons\text_underline.png" />
+  </ItemGroup>
+
+</Project>
