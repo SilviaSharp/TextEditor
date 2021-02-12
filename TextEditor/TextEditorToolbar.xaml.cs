@@ -32,6 +32,9 @@ namespace TextEditor
             Synchronize<FontStyle>(selection, TextBlock.FontStyleProperty, SetFontStyle);
             Synchronize<TextDecorationCollection>(selection, TextBlock.TextDecorationsProperty, SetTextDecoration);
             Synchronize<FontFamily>(selection, TextBlock.FontFamilyProperty, SetFontFamily);
+
+            IsSynchronizing = false;
+           
         }
 
         public void Synchronize<T>(TextSelection selection, DependencyProperty property, Action<T> methodToCall)
@@ -46,9 +49,9 @@ namespace TextEditor
 
         }
 
-        private void SetFontWeight(FontWeight font)
+        private void SetFontWeight(FontWeight weight)
         {
-            boldButton.IsChecked = FontWeight == FontWeights.Bold;
+            boldButton.IsChecked = weight == FontWeights.Bold;
         }
 
         private void SetFontStyle(FontStyle style)

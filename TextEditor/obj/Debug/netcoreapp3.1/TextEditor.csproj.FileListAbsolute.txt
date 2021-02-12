@@ -19,6 +19,5 @@ D:\Sandbox\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditorToolbar.baml
 D:\Sandbox\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditorToolbar.g.cs
 D:\Sandbox\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
 D:\Sandbox\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor_MarkupCompile.lref
-D:\Sandbox\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.csprojAssemblyReference.cache
 D:\Sandbox\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditorMenu.baml
 D:\Sandbox\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditorMenu.g.cs

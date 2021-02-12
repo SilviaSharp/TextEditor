@@ -63,7 +63,7 @@ namespace TextEditor
 
         public void ApplyToSelection (DependencyProperty property,object value)
         {
-            if (value == null)
+            if (value != null)
                 _textBox.Selection.ApplyPropertyValue(property, value);
         }
     }

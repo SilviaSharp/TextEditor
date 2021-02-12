@@ -15,7 +15,7 @@
             <TextBlock x:Name="status"/>
         </StatusBar>
         <RichTextBox x:Name="body"
-                     SelectionChanged="body_SelectionChanged"
+                     SelectionChanged="Body_SelectionChanged"
                      SpellCheck.IsEnabled="True"
                      AcceptsReturn="True"
                      AcceptsTab="True"

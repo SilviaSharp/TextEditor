@@ -47,7 +47,7 @@ namespace TextEditor
             body.Focus();
         }
 
-        private void body_SelectionChanged(object sender, RoutedEventArgs e)
+        private void Body_SelectionChanged(object sender, RoutedEventArgs e)
         {
             toolbar.SynchronizeWith(body.Selection);
         }
