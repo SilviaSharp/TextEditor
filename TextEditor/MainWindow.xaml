@@ -5,6 +5,30 @@
         Title="Text editor" 
         Height="600" 
         Width="800">
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.New"
+                        Executed="NewDocument"/>
+        <CommandBinding Command="ApplicationCommands.Open"
+                        Executed="OpenDocument"/>
+        <CommandBinding Command="ApplicationCommands.Save"
+                       Executed="SaveDocument"
+                        CanExecute="SaveDocument_CanExecute"/>
+        <CommandBinding Command="ApplicationCommands.Print"
+                        Executed="PrintDocument"/>
+        <CommandBinding Command="ApplicationCommands.SaveAs"
+                        Executed="SaveDocumentAs" />
+        <CommandBinding Command="ApplicationCommands.Close"
+                        Executed="ApplicationClose" />
+        <CommandBinding Command="ApplicationCommands.PrintPreview"
+                        Executed="PrintPreview"/>
+    </Window.CommandBindings>
+    <Window.InputBindings>
+        <!--<MouseBinding Gesture="Control+WheelClick"
+                      Command="ApplicationCommands.SaveAs"/>-->
+        <KeyBinding Key="S"
+                    Modifiers="Shift"
+                    Command="ApplicationCommands.SaveAs"/>
+    </Window.InputBindings>
     <DockPanel>
         <local:TextEditorMenu x:Name="menu" 
                               DockPanel.Dock="Top"/>

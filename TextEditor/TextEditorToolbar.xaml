@@ -1,38 +1,48 @@
 ﻿<UserControl x:Class="TextEditor.TextEditorToolbar"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             Loaded="UserControl_Loaded">
+              Loaded="UserControl_Loaded">
     <ToolBarTray >
         <ToolBar >
-            <Button ToolTip="Open">
+            <Button Command="ApplicationCommands.Open"
+                ToolTip="Open">
                 <Image Source="Icons/folder_page.png"/>
             </Button>
-            <Button ToolTip="Save">
+            <Button Command="ApplicationCommands.Save"
+                ToolTip="Save">
                 <Image Source="Icons/page_save.png"/>
             </Button>
         </ToolBar>
         <ToolBar>
-            <Button ToolTip="Cut">
+            <Button 
+                Command="ApplicationCommands.Cut"  
+                ToolTip="Cut">
                 <Image Source="Icons/cut.png"/>
             </Button>
-            <Button ToolTip="Copy">
+            <Button ToolTip="Copy"
+                    Command="ApplicationCommands.Copy">
                 <Image Source="Icons/page_copy.png"/>
             </Button>
-            <Button ToolTip="Paste">
+            <Button  Command="ApplicationCommands.Paste"
+                ToolTip="Paste">
                 <Image Source="Icons/page_paste.png"/>
             </Button>
         </ToolBar>
         <ToolBar>
             <ToggleButton x:Name="boldButton"
-                          ToolTip="Bold">
+              Command="EditingCommands.ToggleBold"
+              ToolTip="Bold">
+
                 <Image Source="/Icons/text_bold.png" />
             </ToggleButton>
             <ToggleButton x:Name="italicButton"
-                          ToolTip="Italic">
+                          ToolTip="Italic"
+                          Command="EditingCommands.ToggleItalic">
                 <Image Source="/Icons/text_italic.png" />
             </ToggleButton>
             <ToggleButton x:Name="underlineButton"
-                          ToolTip="Underline">
+                          ToolTip="Underline"
+                          Command="EditingCommands.ToggleUnderline">
                 <Image Source="/Icons/text_underline.png" />
 
             </ToggleButton>

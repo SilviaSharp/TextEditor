@@ -3,24 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Menu>
         <MenuItem Header="_File">
-        <MenuItem Header="_New"/>
-        <MenuItem Header="_Open"/>
-        <MenuItem Header="_Save"/>
-        <MenuItem Header="_Save As"/>
+            <MenuItem Command="ApplicationCommands.New"/>
+            <MenuItem Command="ApplicationCommands.Open"/>
+            <MenuItem Command="ApplicationCommands.Save"/>
+            <MenuItem Command="ApplicationCommands.SaveAs"/>
         <Separator />
         <MenuItem Header="_Print"/>
         <Separator />
-        <MenuItem Header="Close"/>
+            <MenuItem Command="ApplicationCommands.Print"/>
+            <MenuItem Command="ApplicationCommands.PrintPreview"/>
+            <MenuItem Command="ApplicationCommands.Close"/>
     </MenuItem>
     <MenuItem Header="_Edit">
-        <MenuItem Header="_Edit"/>
-        <MenuItem Header="_Undo"/>
-        <MenuItem Header="_Redo"/>
+        <MenuItem Command="ApplicationCommands.Undo" />
+        <MenuItem Command="ApplicationCommands.Redo"/>
         <Separator />
-        <MenuItem Header="C_ut"/>
-        <MenuItem Header="_Copy"/>
-        <MenuItem Header="_Paste"/>
-        <MenuItem Header="_Delete"/>
+            <MenuItem Command="ApplicationCommands.Cut" />
+            <MenuItem Command="ApplicationCommands.Copy" />
+            <MenuItem Command="ApplicationCommands.Paste"/>
+            <MenuItem Command="ApplicationCommands.Delete"/>
 
     </MenuItem>
 

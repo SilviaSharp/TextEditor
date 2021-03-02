@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 D:\Sandbox\TextEditor\TextEditor\App.xaml
-31106510320
+41787689649
 
-8-761049331
+111105845368
 1921654412462
-MainWindow.xaml;TextEditorMenu.xaml;TextEditorToolbar.xaml;
+MainWindow.xaml;PrintPreviewDialog.xaml;TextEditorMenu.xaml;TextEditorToolbar.xaml;
 
 False
 

@@ -21,3 +21,5 @@ D:\Sandbox\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHe
 D:\Sandbox\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor_MarkupCompile.lref
 D:\Sandbox\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditorMenu.baml
 D:\Sandbox\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditorMenu.g.cs
+D:\Sandbox\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.csprojAssemblyReference.cache
+D:\Sandbox\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.csproj.ResolveComReference.cache
